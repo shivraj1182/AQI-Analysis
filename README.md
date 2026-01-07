@@ -1,8 +1,8 @@
-# 🌍 AQI-Analysis
+# AQI-Analysis
 
 Air Quality Index (AQI) Analysis and Forecasting for Indian Cities. Analyzes pollution trends (PM2.5, PM10, NO2, SO2) and builds predictive models using ARIMA and Prophet for actionable environmental insights.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -16,7 +16,7 @@ Air Quality Index (AQI) Analysis and Forecasting for Indian Cities. Analyzes pol
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This project focuses on comprehensive analysis of Air Quality Index (AQI) data across major Indian cities including Delhi, Mumbai, Kolkata, and Bengaluru. The project aims to:
 
@@ -26,7 +26,7 @@ This project focuses on comprehensive analysis of Air Quality Index (AQI) data a
 - Provide data-driven policy recommendations
 - Generate actionable insights for policymakers and public health officials
 
-## ✨ Features
+## Features
 
 - **Data Preprocessing**: Clean and handle missing values in AQI datasets
 - **Exploratory Data Analysis (EDA)**: Comprehensive statistical analysis and visualization
@@ -36,7 +36,7 @@ This project focuses on comprehensive analysis of Air Quality Index (AQI) data a
 - **High-Risk Zone Identification**: Detect periods with hazardous air quality
 - **Policy Insights**: Evidence-based environmental recommendations
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AQI-Analysis/
@@ -48,7 +48,7 @@ AQI-Analysis/
 └── .gitignore            # Git ignore rules
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -75,7 +75,7 @@ AQI-Analysis/
    pip install -r requirements.txt
    ```
 
-## 💻 Usage
+## Usage
 
 ### Basic Analysis
 
@@ -115,17 +115,17 @@ visualizer.plot_seasonal_trends(data)
 visualizer.plot_correlation_heatmap(data)
 ```
 
-## 📊 Data Analysis
+## Data Analysis
 
 ### Key Work Done
 
-✅ Cleaned and preprocessed raw AQI data to handle missing/inconsistent values
-✅ Conducted EDA to study pollutant distributions and seasonal trends
-✅ Visualized data using Matplotlib, Seaborn, and interactive dashboards
-✅ Applied Time Series Forecasting using ARIMA models
-✅ Implemented Facebook Prophet for seasonal forecasting
-✅ Compared models to identify best-performing approach
-✅ Identified high-risk zones and peak pollution periods
+- Cleaned and preprocessed raw AQI data to handle missing/inconsistent values
+- Conducted EDA to study pollutant distributions and seasonal trends
+- Visualized data using Matplotlib, Seaborn, and interactive dashboards
+- Applied Time Series Forecasting using ARIMA models
+- Implemented Facebook Prophet for seasonal forecasting
+- Compared models to identify best-performing approach
+- Identified high-risk zones and peak pollution periods
 
 ### Pollutants Analyzed
 
@@ -134,7 +134,7 @@ visualizer.plot_correlation_heatmap(data)
 - **NO2**: Nitrogen dioxide
 - **SO2**: Sulfur dioxide
 
-## 🔮 Forecasting
+## Forecasting
 
 ### ARIMA Model
 - Captures temporal dependencies
@@ -146,7 +146,7 @@ visualizer.plot_correlation_heatmap(data)
 - Robust to missing data
 - Interpretable trend and seasonality
 
-## 🏛️ Policy Recommendations
+## Policy Recommendations
 
 Based on comprehensive analysis, the project suggests:
 
@@ -157,7 +157,7 @@ Based on comprehensive analysis, the project suggests:
 5. **Traffic Management**: Optimize traffic flow to reduce congestion
 6. **Public Awareness**: Launch awareness campaigns on air quality and health impacts
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Data Processing
 - **pandas**: Data manipulation and analysis
@@ -177,7 +177,7 @@ Based on comprehensive analysis, the project suggests:
 - **Jupyter Notebook**: Interactive analysis
 - **Python**: Programming language
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -187,17 +187,17 @@ Contributions are welcome! Here's how you can help:
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 **Shivraj1182**
 
 - GitHub: [@shivraj1182](https://github.com/shivraj1182)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Central Pollution Control Board (CPCB) for AQI data
 - Statsmodels for ARIMA implementation
@@ -206,4 +206,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with 💚 for environmental analysis and sustainability**
+Made with care for environmental analysis and sustainability
